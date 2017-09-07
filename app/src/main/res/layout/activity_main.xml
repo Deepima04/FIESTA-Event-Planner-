@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deepi.fiesta.Main"
+    android:background="@drawable/rose"
+    >
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpagerrrr"
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="175dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/button"
+        android:onClick="login"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:onClick="skip"
+        android:id="@+id/button2"
+        android:layout_marginTop="435dp"
+        android:layout_centerHorizontal="true"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/apture2"
+        android:id="@+id/imageView"
+        android:alpha="0.9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

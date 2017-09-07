@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:fillViewport="false"
+    >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.deepi.fiesta.CustomizeWedding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STAGE DECORATION"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:text="Floral Stage"
+            android:id="@+id/cbfloral_stage"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textfloralstage"
+            android:layout_alignBottom="@+id/cbdecoration"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Wedding"
+            android:id="@+id/cbopen_wedding"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textopenwedding"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ethnic Stage"
+            android:id="@+id/cbethnic_stage"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textethnicstage"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balloon Stage"
+            android:id="@+id/cbballoon_stage"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textballoonstage"
+            android:layout_column="12" />
+    </TableRow>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flower Decoration"
+
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:text="Pearly White"
+            android:id="@+id/cbpearly_white"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textpearlywhite"
+            android:layout_alignBottom="@+id/cbdecoration"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satin and Flower"
+            android:id="@+id/cbsatin"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textsatin"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red and Gold"
+            android:id="@+id/cbredngold"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textredngold"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White and Pink"
+            android:id="@+id/cbwhitenpink"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textwhitenpink"
+            android:layout_column="12" />
+    </TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add-Ons"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:text="Mandap Deccor"
+            android:id="@+id/cbmandap"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textmandap"
+            android:layout_alignBottom="@+id/cbdecoration"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outdoor Floral Decor"
+            android:id="@+id/cboutdoorfloral"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textoutdoorfloral"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:id="@+id/cbmusic_facility"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="checkboxClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textmusicfacility"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bar Facility"
+            android:id="@+id/cbbar_facility"
+            android:layout_column="0"
+            android:checked="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textbarfacility"
+            android:layout_column="12" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cbcake"
+            android:layout_column="0"
+            android:checked="false"
+            android:onClick="checkboxClick"
+            android:text="Wedding Cake" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textcake"
+            android:layout_column="12" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Rooms Offered"
+            android:id="@+id/textView6"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textroom_offered"
+            android:layout_column="13" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Charge"
+            android:id="@+id/textView10"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/texttotalcharges"
+            android:layout_column="13" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Pick Your Venue"
+            android:id="@+id/button11"
+            android:onClick="pickyourvenue"
+            android:layout_column="13" />
+    </TableRow>
+
+
+</TableLayout>
+</ScrollView>
